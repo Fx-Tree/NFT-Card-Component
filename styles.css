@@ -88,17 +88,10 @@ a :hover {
   border: solid white 4px;
 }
 
-@media (max-width: 1000px) and (min-width: 300px) {
-  .contact-container {
-    position: absolute;
-    bottom: 0%;
-    right: 0;
-    width: 100vw;
-    height: 20vh;
-  }
-  .contact-circle {
-    left: 50%;
-    right: 0%;
-    transform: translate(-50%, 0);
-  }
+.contact-circle2 {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  border: solid white 3px;
 }
